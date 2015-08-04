@@ -180,6 +180,9 @@
   <data name="strDone" xml:space="preserve">
     <value>Done?</value>
   </data>
+  <data name="strFalse" xml:space="preserve">
+    <value>No</value>
+  </data>
   <data name="strFor" xml:space="preserve">
     <value> for </value>
   </data>
@@ -239,5 +242,8 @@
   </data>
   <data name="strThe" xml:space="preserve">
     <value>The </value>
+  </data>
+  <data name="strTrue" xml:space="preserve">
+    <value>Yes</value>
   </data>
 </root>

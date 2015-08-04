@@ -252,6 +252,7 @@ namespace SuperAdventure
 
         private void UpdateQuestListInUI()
         {
+            string completed;
             dgvQuests.RowHeadersVisible = false;
 
             dgvQuests.ColumnCount = 2;
@@ -261,7 +262,15 @@ namespace SuperAdventure
             dgvQuests.Rows.Clear();
             foreach (PlayerQuest playerQuest in _player.Quests)
             {
-                dgvQuests.Rows.Add(new[] { playerQuest.Details.Name, playerQuest.IsCompleted.ToString() });
+                if (playerQuest.IsCompleted)
+                {
+                    completed = RmLoc.GetString("strTrue");
+                }
+                else
+                {
+                    completed = RmLoc.GetString("strFalse");
+                }
+                dgvQuests.Rows.Add(new[] { playerQuest.Details.Name, completed });
             }
         }
 
