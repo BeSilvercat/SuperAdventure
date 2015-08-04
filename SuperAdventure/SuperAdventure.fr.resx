@@ -166,13 +166,145 @@
   <data name="btnSouth.Text" xml:space="preserve">
     <value>Sud</value>
   </data>
-  <data name="strDone" xml:space="preserve">
-    <value>Terminé?</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
   </data>
-  <data name="strName" xml:space="preserve">
-    <value>Nom</value>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Fichier</value>
   </data>
-  <data name="strQuantity" xml:space="preserve">
-    <value>Quantité</value>
+  <data name="newGameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="newGameToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nouveau jeu</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 6</value>
+  </data>
+  <data name="openSavedGameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="openSavedGameToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ouvrir un jeu sauvegardé</value>
+  </data>
+  <data name="saveGameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="saveGameToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sauvegarder le jeu</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Quitter</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Inventaire</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Quêtes</value>
+  </data>
+  <data name="lblGoldInBank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="lblGoldInBank.Text" xml:space="preserve">
+    <value>Or en banque :</value>
+  </data>
+  <data name="lblGoldAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblGoldAmount.Text" xml:space="preserve">
+    <value>Montant :</value>
+  </data>
+  <data name="cboBank.Items" xml:space="preserve">
+    <value>Déposer de l'or à la banque</value>
+  </data>
+  <data name="cboBank.Items1" xml:space="preserve">
+    <value>Retirer de l'or de la banque</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Transférer</value>
+  </data>
+  <data name="strBankDeposit" xml:space="preserve">
+    <value>Vous avez effectué un dépôt de </value>
+  </data>
+  <data name="strBankFrom" xml:space="preserve">
+    <value> pièces d'or de la banque</value>
+  </data>
+  <data name="strBankNoAmount" xml:space="preserve">
+    <value>Vous devez définir un montant pour pouvoir effectuer l'opération</value>
+  </data>
+  <data name="strBankNotEnoughGold" xml:space="preserve">
+    <value>Vous ne disposez pas d'assez d'or en banque pour effectuer cette transaction</value>
+  </data>
+  <data name="strBankTo" xml:space="preserve">
+    <value> pièces d'or à la banque</value>
+  </data>
+  <data name="strBankWithdrawal" xml:space="preserve">
+    <value>Vous avez effectué un retrait de </value>
+  </data>
+  <data name="strDamagePoints" xml:space="preserve">
+    <value> points de dommages</value>
+  </data>
+  <data name="strDid" xml:space="preserve">
+    <value> vous a infligé </value>
+  </data>
+  <data name="strFor" xml:space="preserve">
+    <value> pour </value>
+  </data>
+  <data name="strKilledYou" xml:space="preserve">
+    <value> vous a tué</value>
+  </data>
+  <data name="strPlayerDefeatedMonster" xml:space="preserve">
+    <value>Vous avez vaincu le/la </value>
+  </data>
+  <data name="strPlayerDrink" xml:space="preserve">
+    <value>Vous buvez un(e) </value>
+  </data>
+  <data name="strPlayerHit" xml:space="preserve">
+    <value>Vous touchez le/la </value>
+  </data>
+  <data name="strPlayerLoot" xml:space="preserve">
+    <value>Vous empochez </value>
+  </data>
+  <data name="strPlayerMustHave" xml:space="preserve">
+    <value>Vous devez avoir un </value>
+  </data>
+  <data name="strPlayerNotEnoughGold" xml:space="preserve">
+    <value>Vous n'avez pas assez d'or en poche pour effectuer cette transaction</value>
+  </data>
+  <data name="strPlayerSee" xml:space="preserve">
+    <value>Vous voyez </value>
+  </data>
+  <data name="strPlayerSeeA" xml:space="preserve">
+    <value>Vous voyez un(e) </value>
+  </data>
+  <data name="strPlayerToEnter" xml:space="preserve">
+    <value> pour accéder à ce lieu</value>
+  </data>
+  <data name="strQuestComplete" xml:space="preserve">
+    <value>Vous avez terminé la quête : </value>
+  </data>
+  <data name="strQuestReceive" xml:space="preserve">
+    <value>Vous recevez la quête : </value>
+  </data>
+  <data name="strQuestToComplete" xml:space="preserve">
+    <value>Pour terminer cette quête, vous devez rapporter : </value>
+  </data>
+  <data name="strRewardExperience" xml:space="preserve">
+    <value> points d'expérience</value>
+  </data>
+  <data name="strRewardGold" xml:space="preserve">
+    <value> pièces d'or</value>
+  </data>
+  <data name="strRewardReceive" xml:space="preserve">
+    <value>Vous recevez </value>
+  </data>
+  <data name="strThe" xml:space="preserve">
+    <value>Le/la </value>
   </data>
 </root>

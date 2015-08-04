@@ -67,7 +67,7 @@
             this.lblGoldAmount = new System.Windows.Forms.Label();
             this.txtGoldBank = new System.Windows.Forms.TextBox();
             this.cboBank = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnTransfer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -296,7 +296,7 @@
             this.pnBank.Controls.Add(this.lblGoldAmount);
             this.pnBank.Controls.Add(this.txtGoldBank);
             this.pnBank.Controls.Add(this.cboBank);
-            this.pnBank.Controls.Add(this.button1);
+            this.pnBank.Controls.Add(this.btnTransfer);
             resources.ApplyResources(this.pnBank, "pnBank");
             this.pnBank.Name = "pnBank";
             // 
@@ -330,12 +330,12 @@
             resources.ApplyResources(this.cboBank, "cboBank");
             this.cboBank.Name = "cboBank";
             // 
-            // button1
+            // btnTransfer
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.btnTransfer, "btnTransfer");
+            this.btnTransfer.Name = "btnTransfer";
+            this.btnTransfer.UseVisualStyleBackColor = true;
+            this.btnTransfer.Click += new System.EventHandler(this.btnTransfer_Click);
             // 
             // SuperAdventure
             // 
@@ -365,7 +365,6 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "SuperAdventure";
-            this.Load += new System.EventHandler(this.SuperAdventure_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).EndInit();
             this.menuStrip1.ResumeLayout(false);
@@ -418,7 +417,7 @@
         private System.Windows.Forms.Label lblGoldAmount;
         private System.Windows.Forms.TextBox txtGoldBank;
         private System.Windows.Forms.ComboBox cboBank;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnTransfer;
         private System.Windows.Forms.TextBox txtAvailableGold;
         private System.Windows.Forms.Label lblGoldInBank;
     }

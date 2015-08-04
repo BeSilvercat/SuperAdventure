@@ -150,13 +150,91 @@
   <data name="lblSelectAction.Text" xml:space="preserve">
     <value>Select action:</value>
   </data>
+  <data name="strBankDeposit" xml:space="preserve">
+    <value>You made a deposit of </value>
+  </data>
+  <data name="strBankFrom" xml:space="preserve">
+    <value> gold pieces from the bank</value>
+  </data>
+  <data name="strBankNoAmount" xml:space="preserve">
+    <value>You need to set an amount of gold to process</value>
+  </data>
+  <data name="strBankNotEnoughGold" xml:space="preserve">
+    <value>You don't have enough gold in your bank account to perform this transaction</value>
+  </data>
+  <data name="strBankTo" xml:space="preserve">
+    <value> gold pieces to the bank</value>
+  </data>
+  <data name="strBankWithdrawal" xml:space="preserve">
+    <value>You made a withdrawal of </value>
+  </data>
+  <data name="strDamagePoints" xml:space="preserve">
+    <value> points of damage</value>
+  </data>
+  <data name="strDid" xml:space="preserve">
+    <value> did </value>
+  </data>
   <data name="strDone" xml:space="preserve">
     <value>Done?</value>
+  </data>
+  <data name="strFor" xml:space="preserve">
+    <value> for </value>
+  </data>
+  <data name="strKilledYou" xml:space="preserve">
+    <value> killed you</value>
   </data>
   <data name="strName" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="strPlayerDefeatedMonster" xml:space="preserve">
+    <value>You defeated the </value>
+  </data>
+  <data name="strPlayerDrink" xml:space="preserve">
+    <value>You drink a </value>
+  </data>
+  <data name="strPlayerHit" xml:space="preserve">
+    <value>You hit the </value>
+  </data>
+  <data name="strPlayerLoot" xml:space="preserve">
+    <value>You loot </value>
+  </data>
+  <data name="strPlayerMustHave" xml:space="preserve">
+    <value>You must have a </value>
+  </data>
+  <data name="strPlayerNotEnoughGold" xml:space="preserve">
+    <value>You don't have enough gold in your pockets to perform this transaction</value>
+  </data>
+  <data name="strPlayerSee" xml:space="preserve">
+    <value>You see </value>
+  </data>
+  <data name="strPlayerSeeA" xml:space="preserve">
+    <value>You see a </value>
+  </data>
+  <data name="strPlayerToEnter" xml:space="preserve">
+    <value> to enter this location</value>
+  </data>
   <data name="strQuantity" xml:space="preserve">
     <value>Quantity</value>
+  </data>
+  <data name="strQuestComplete" xml:space="preserve">
+    <value>You complete the quest : </value>
+  </data>
+  <data name="strQuestReceive" xml:space="preserve">
+    <value>You receive the quest : </value>
+  </data>
+  <data name="strQuestToComplete" xml:space="preserve">
+    <value>To complete this quest, return with : </value>
+  </data>
+  <data name="strRewardExperience" xml:space="preserve">
+    <value> points of experience</value>
+  </data>
+  <data name="strRewardGold" xml:space="preserve">
+    <value> gold</value>
+  </data>
+  <data name="strRewardReceive" xml:space="preserve">
+    <value>You receive </value>
+  </data>
+  <data name="strThe" xml:space="preserve">
+    <value>The </value>
   </data>
 </root>
