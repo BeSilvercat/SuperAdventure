@@ -603,6 +603,15 @@
   <data name="&gt;&gt;rtbMessages.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="dgvColName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <metadata name="dgvColQuantity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dgvColQuantity.HeaderText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
   <data name="dgvInventory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -629,6 +638,18 @@
   </data>
   <data name="&gt;&gt;dgvInventory.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <metadata name="dgvColQuestName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dgvColQuestName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <metadata name="dgvColQuestDone.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dgvColQuestDone.HeaderText" xml:space="preserve">
+    <value>Done?</value>
   </data>
   <data name="dgvQuests.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -984,6 +1005,18 @@
   <data name="$this.Text" xml:space="preserve">
     <value>SuperAdventure</value>
   </data>
+  <data name="&gt;&gt;dgvColName.Name" xml:space="preserve">
+    <value>dgvColName</value>
+  </data>
+  <data name="&gt;&gt;dgvColName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvColQuantity.Name" xml:space="preserve">
+    <value>dgvColQuantity</value>
+  </data>
+  <data name="&gt;&gt;dgvColQuantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
     <value>fileToolStripMenuItem</value>
   </data>
@@ -1025,6 +1058,18 @@
   </data>
   <data name="&gt;&gt;quitToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvColQuestName.Name" xml:space="preserve">
+    <value>dgvColQuestName</value>
+  </data>
+  <data name="&gt;&gt;dgvColQuestName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvColQuestDone.Name" xml:space="preserve">
+    <value>dgvColQuestDone</value>
+  </data>
+  <data name="&gt;&gt;dgvColQuestDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>SuperAdventure</value>

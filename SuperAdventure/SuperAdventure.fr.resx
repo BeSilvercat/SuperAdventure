@@ -226,85 +226,16 @@
   <data name="cboBank.Items1" xml:space="preserve">
     <value>Retirer de l'or de la banque</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Transférer</value>
+  <data name="dgvColName.HeaderText" xml:space="preserve">
+    <value>Nom</value>
   </data>
-  <data name="strBankDeposit" xml:space="preserve">
-    <value>Vous avez effectué un dépôt de </value>
+  <data name="dgvColQuantity.HeaderText" xml:space="preserve">
+    <value>Quantité</value>
   </data>
-  <data name="strBankFrom" xml:space="preserve">
-    <value> pièces d'or de la banque</value>
+  <data name="dgvColQuestDone.HeaderText" xml:space="preserve">
+    <value>Terminé?</value>
   </data>
-  <data name="strBankNoAmount" xml:space="preserve">
-    <value>Vous devez définir un montant pour pouvoir effectuer l'opération</value>
-  </data>
-  <data name="strBankNotEnoughGold" xml:space="preserve">
-    <value>Vous ne disposez pas d'assez d'or en banque pour effectuer cette transaction</value>
-  </data>
-  <data name="strBankTo" xml:space="preserve">
-    <value> pièces d'or à la banque</value>
-  </data>
-  <data name="strBankWithdrawal" xml:space="preserve">
-    <value>Vous avez effectué un retrait de </value>
-  </data>
-  <data name="strDamagePoints" xml:space="preserve">
-    <value> points de dommages</value>
-  </data>
-  <data name="strDid" xml:space="preserve">
-    <value> vous a infligé </value>
-  </data>
-  <data name="strFor" xml:space="preserve">
-    <value> pour </value>
-  </data>
-  <data name="strKilledYou" xml:space="preserve">
-    <value> vous a tué</value>
-  </data>
-  <data name="strPlayerDefeatedMonster" xml:space="preserve">
-    <value>Vous avez vaincu le/la </value>
-  </data>
-  <data name="strPlayerDrink" xml:space="preserve">
-    <value>Vous buvez un(e) </value>
-  </data>
-  <data name="strPlayerHit" xml:space="preserve">
-    <value>Vous touchez le/la </value>
-  </data>
-  <data name="strPlayerLoot" xml:space="preserve">
-    <value>Vous empochez </value>
-  </data>
-  <data name="strPlayerMustHave" xml:space="preserve">
-    <value>Vous devez avoir un </value>
-  </data>
-  <data name="strPlayerNotEnoughGold" xml:space="preserve">
-    <value>Vous n'avez pas assez d'or en poche pour effectuer cette transaction</value>
-  </data>
-  <data name="strPlayerSee" xml:space="preserve">
-    <value>Vous voyez </value>
-  </data>
-  <data name="strPlayerSeeA" xml:space="preserve">
-    <value>Vous voyez un(e) </value>
-  </data>
-  <data name="strPlayerToEnter" xml:space="preserve">
-    <value> pour accéder à ce lieu</value>
-  </data>
-  <data name="strQuestComplete" xml:space="preserve">
-    <value>Vous avez terminé la quête : </value>
-  </data>
-  <data name="strQuestReceive" xml:space="preserve">
-    <value>Vous recevez la quête : </value>
-  </data>
-  <data name="strQuestToComplete" xml:space="preserve">
-    <value>Pour terminer cette quête, vous devez rapporter : </value>
-  </data>
-  <data name="strRewardExperience" xml:space="preserve">
-    <value> points d'expérience</value>
-  </data>
-  <data name="strRewardGold" xml:space="preserve">
-    <value> pièces d'or</value>
-  </data>
-  <data name="strRewardReceive" xml:space="preserve">
-    <value>Vous recevez </value>
-  </data>
-  <data name="strThe" xml:space="preserve">
-    <value>Le/la </value>
+  <data name="dgvColQuestName.HeaderText" xml:space="preserve">
+    <value>Nom</value>
   </data>
 </root>

@@ -49,6 +49,8 @@
             this.rtbLocation = new System.Windows.Forms.RichTextBox();
             this.rtbMessages = new System.Windows.Forms.RichTextBox();
             this.dgvInventory = new System.Windows.Forms.DataGridView();
+            this.dgvColName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvColQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvQuests = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,6 +70,8 @@
             this.txtGoldBank = new System.Windows.Forms.TextBox();
             this.cboBank = new System.Windows.Forms.ComboBox();
             this.btnTransfer = new System.Windows.Forms.Button();
+            this.dgvColQuestName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvColQuestDone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -194,6 +198,9 @@
             this.dgvInventory.AllowUserToDeleteRows = false;
             this.dgvInventory.AllowUserToResizeRows = false;
             this.dgvInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvInventory.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvColName,
+            this.dgvColQuantity});
             resources.ApplyResources(this.dgvInventory, "dgvInventory");
             this.dgvInventory.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvInventory.MultiSelect = false;
@@ -201,12 +208,27 @@
             this.dgvInventory.ReadOnly = true;
             this.dgvInventory.RowHeadersVisible = false;
             // 
+            // dgvColName
+            // 
+            resources.ApplyResources(this.dgvColName, "dgvColName");
+            this.dgvColName.Name = "dgvColName";
+            this.dgvColName.ReadOnly = true;
+            // 
+            // dgvColQuantity
+            // 
+            resources.ApplyResources(this.dgvColQuantity, "dgvColQuantity");
+            this.dgvColQuantity.Name = "dgvColQuantity";
+            this.dgvColQuantity.ReadOnly = true;
+            // 
             // dgvQuests
             // 
             this.dgvQuests.AllowUserToAddRows = false;
             this.dgvQuests.AllowUserToDeleteRows = false;
             this.dgvQuests.AllowUserToResizeRows = false;
             this.dgvQuests.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQuests.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvColQuestName,
+            this.dgvColQuestDone});
             resources.ApplyResources(this.dgvQuests, "dgvQuests");
             this.dgvQuests.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvQuests.MultiSelect = false;
@@ -337,6 +359,18 @@
             this.btnTransfer.UseVisualStyleBackColor = true;
             this.btnTransfer.Click += new System.EventHandler(this.btnTransfer_Click);
             // 
+            // dgvColQuestName
+            // 
+            resources.ApplyResources(this.dgvColQuestName, "dgvColQuestName");
+            this.dgvColQuestName.Name = "dgvColQuestName";
+            this.dgvColQuestName.ReadOnly = true;
+            // 
+            // dgvColQuestDone
+            // 
+            resources.ApplyResources(this.dgvColQuestDone, "dgvColQuestDone");
+            this.dgvColQuestDone.Name = "dgvColQuestDone";
+            this.dgvColQuestDone.ReadOnly = true;
+            // 
             // SuperAdventure
             // 
             resources.ApplyResources(this, "$this");
@@ -400,7 +434,6 @@
         private System.Windows.Forms.Button btnSouth;
         private System.Windows.Forms.RichTextBox rtbLocation;
         private System.Windows.Forms.RichTextBox rtbMessages;
-        private System.Windows.Forms.DataGridView dgvInventory;
         private System.Windows.Forms.DataGridView dgvQuests;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
@@ -420,6 +453,11 @@
         private System.Windows.Forms.Button btnTransfer;
         private System.Windows.Forms.TextBox txtAvailableGold;
         private System.Windows.Forms.Label lblGoldInBank;
+        private System.Windows.Forms.DataGridView dgvInventory;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvColName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvColQuantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvColQuestName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvColQuestDone;
     }
 }
 

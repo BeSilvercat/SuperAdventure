@@ -135,6 +135,9 @@
   <data name="btnWest.Text" xml:space="preserve">
     <value>West</value>
   </data>
+  <data name="dgvColName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
   <data name="lblExperienceStr.Text" xml:space="preserve">
     <value>Experience:</value>
   </data>

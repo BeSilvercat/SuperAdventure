@@ -233,12 +233,12 @@ namespace SuperAdventure
             dgvInventory.RowHeadersVisible = false;
 
             dgvInventory.ColumnCount = 2;
-            dgvInventory.Columns[0].Name = RmLoc.GetString("strName");
+
             dgvInventory.Columns[0].Width = 220;
-            dgvInventory.Columns[1].Name = RmLoc.GetString("strQuantity");
+
             dgvInventory.Columns[1].Width = 92;
             dgvInventory.Columns[1].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
-
+            
             dgvInventory.Rows.Clear();
 
             foreach (InventoryItem inventoryItem in _player.Inventory)
@@ -255,9 +255,7 @@ namespace SuperAdventure
             dgvQuests.RowHeadersVisible = false;
 
             dgvQuests.ColumnCount = 2;
-            dgvQuests.Columns[0].Name = RmLoc.GetString("strName");
             dgvQuests.Columns[0].Width = 220;
-            dgvQuests.Columns[1].Name = RmLoc.GetString("strDone");
             dgvQuests.Columns[1].Width = 92;
 
             dgvQuests.Rows.Clear();
