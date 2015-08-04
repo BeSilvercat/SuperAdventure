@@ -329,7 +329,6 @@
             resources.GetString("cboBank.Items1")});
             resources.ApplyResources(this.cboBank, "cboBank");
             this.cboBank.Name = "cboBank";
-            this.cboBank.SelectedIndexChanged += new System.EventHandler(this.cboBank_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -366,7 +365,6 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "SuperAdventure";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SuperAdventure_FormClosing);
             this.Load += new System.EventHandler(this.SuperAdventure_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).EndInit();

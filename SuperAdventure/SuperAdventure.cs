@@ -634,8 +634,5 @@ namespace SuperAdventure
             
         }
        
-        private void cboBank_SelectedIndexChanged(object sender, EventArgs e)
-        { 
-        } 
     }
 }

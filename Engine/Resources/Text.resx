@@ -249,6 +249,12 @@
   <data name="strTownSquare" xml:space="preserve">
     <value>Town Square</value>
   </data>
+  <data name="strTownSquareBank" xml:space="preserve">
+    <value>The town's bank</value>
+  </data>
+  <data name="strTownSquareBankDesc" xml:space="preserve">
+    <value>Here, your gold will be in security!</value>
+  </data>
   <data name="strTownSquareDesc" xml:space="preserve">
     <value>You see a fountain...</value>
   </data>

@@ -255,4 +255,10 @@
   <data name="strTownSquareDesc" xml:space="preserve">
     <value>Vous voyez une fontaine...</value>
   </data>
+  <data name="strTownSquareBank" xml:space="preserve">
+    <value>La banque du village</value>
+  </data>
+  <data name="strTownSquareBankDesc" xml:space="preserve">
+    <value>Ici, votre or sera en sécurité!</value>
+  </data>
 </root>

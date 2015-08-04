@@ -457,6 +457,24 @@ namespace Engine.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à The town&apos;s bank.
+        /// </summary>
+        public static string strTownSquareBank {
+            get {
+                return ResourceManager.GetString("strTownSquareBank", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Here, your gold will be in security!.
+        /// </summary>
+        public static string strTownSquareBankDesc {
+            get {
+                return ResourceManager.GetString("strTownSquareBankDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à You see a fountain....
         /// </summary>
         public static string strTownSquareDesc {

@@ -120,7 +120,7 @@ namespace Engine
         public static void PopulateBanks()
         {
 
-            Bank townSquareBank = new Bank(BANK_ID_TOWN_SQUARE, "Bank of Town Square", "Ceci est la banque du village", 0);
+            Bank townSquareBank = new Bank(BANK_ID_TOWN_SQUARE, Resources.Text.strTownSquareBank, Resources.Text.strTownSquareBankDesc, 0);
             Banks.Add(townSquareBank);
             
         }
