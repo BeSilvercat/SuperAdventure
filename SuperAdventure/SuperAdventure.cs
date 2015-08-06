@@ -36,7 +36,6 @@ namespace SuperAdventure
             InitializeComponent();
             
 
-
             if (File.Exists(PLAYER_DATA_FILE_NAME))
             {
                 _player = Player.CreatePlayerFromXmlString(File.ReadAllText(PLAYER_DATA_FILE_NAME));
