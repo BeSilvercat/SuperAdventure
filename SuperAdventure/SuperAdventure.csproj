@@ -58,6 +58,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Strings.fr.resx" />
     <EmbeddedResource Include="SuperAdventure.en.resx">
       <DependentUpon>SuperAdventure.cs</DependentUpon>
     </EmbeddedResource>

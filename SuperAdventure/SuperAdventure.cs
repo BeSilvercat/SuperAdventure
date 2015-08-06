@@ -26,7 +26,7 @@ namespace SuperAdventure
         private const string PLAYER_DATA_FILE_NAME = "PlayerData.xml";
         #endregion
 
-        ResourceManager RmLoc = new ResourceManager("SuperAdventure.SuperAdventure", typeof(SuperAdventure).Assembly);
+        ResourceManager RmLoc = new ResourceManager("SuperAdventure.Strings", typeof(SuperAdventure).Assembly);
 
         public SuperAdventure()
         {
@@ -192,7 +192,7 @@ namespace SuperAdventure
                 Monster standardMonster = World.MonsterByID(newLocation.MonsterLivingHere.ID);
 
                 _currentMonster = new Monster(standardMonster.ID, standardMonster.Name, standardMonster.MaximumDamage,
-                    standardMonster.RewardExperiencePoints, standardMonster.RewardGold, standardMonster.CurrentHitPoints, standardMonster.MaximumHitPoints);
+                    standardMonster.RewardExperiencePoints, standardMonster.RewardGold, standardMonster.CurrentHitPoints, standardMonster.MaximumHitPoints, standardMonster.IsAggro);
 
                 foreach (LootItem lootItem in standardMonster.LootTable)
                 {
