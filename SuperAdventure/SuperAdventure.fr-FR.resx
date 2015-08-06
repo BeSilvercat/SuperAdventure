@@ -119,10 +119,10 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblHitPointsStr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 13</value>
+    <value>55, 13</value>
   </data>
   <data name="lblHitPointsStr.Text" xml:space="preserve">
-    <value>Points de vie :</value>
+    <value>HitPoints :</value>
   </data>
   <data name="lblGoldStr.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 13</value>
@@ -219,29 +219,5 @@
   </data>
   <data name="lblGoldAmount.Text" xml:space="preserve">
     <value>Montant :</value>
-  </data>
-  <data name="cboBank.Items" xml:space="preserve">
-    <value>Déposer de l'or à la banque</value>
-  </data>
-  <data name="cboBank.Items1" xml:space="preserve">
-    <value>Retirer de l'or de la banque</value>
-  </data>
-  <data name="dgvColName.HeaderText" xml:space="preserve">
-    <value>Nom</value>
-  </data>
-  <data name="dgvColQuantity.HeaderText" xml:space="preserve">
-    <value>Quantité</value>
-  </data>
-  <data name="dgvColQuestDone.HeaderText" xml:space="preserve">
-    <value>Terminé?</value>
-  </data>
-  <data name="dgvColQuestName.HeaderText" xml:space="preserve">
-    <value>Nom</value>
-  </data>
-  <data name="strFalse" xml:space="preserve">
-    <value>Non</value>
-  </data>
-  <data name="strTrue" xml:space="preserve">
-    <value>Oui</value>
   </data>
 </root>

@@ -126,6 +126,9 @@
   <data name="btnSouth.Text" xml:space="preserve">
     <value>South</value>
   </data>
+  <data name="btnTransfer.Text" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
   <data name="btnUsePotion.Text" xml:space="preserve">
     <value>Use</value>
   </data>
@@ -135,22 +138,80 @@
   <data name="btnWest.Text" xml:space="preserve">
     <value>West</value>
   </data>
+  <data name="cboBank.Items" xml:space="preserve">
+    <value>Gold deposit to the bank</value>
+  </data>
+  <data name="cboBank.Items1" xml:space="preserve">
+    <value>Gold withdrawal from the bank</value>
+  </data>
   <data name="dgvColName.HeaderText" xml:space="preserve">
     <value>Name</value>
+  </data>
+  <data name="dgvColQuantity.HeaderText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="dgvColQuestDone.HeaderText" xml:space="preserve">
+    <value>Done?</value>
+  </data>
+  <data name="dgvColQuestName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
   </data>
   <data name="lblExperienceStr.Text" xml:space="preserve">
     <value>Experience:</value>
   </data>
+  <data name="lblGoldAmount.Text" xml:space="preserve">
+    <value>Gold Amount:</value>
+  </data>
+  <data name="lblGoldInBank.Text" xml:space="preserve">
+    <value>Available gold in bank</value>
+  </data>
   <data name="lblGoldStr.Text" xml:space="preserve">
     <value>Gold:</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblHitPointsStr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
   <data name="lblHitPointsStr.Text" xml:space="preserve">
-    <value>HitPoints :</value>
+    <value>HitPointds :</value>
+  </data>
+  <data name="lblHitPointsStr.Text1" xml:space="preserve">
+    <value>HitPoints;</value>
   </data>
   <data name="lblLevelStr.Text" xml:space="preserve">
     <value>Level:</value>
   </data>
   <data name="lblSelectAction.Text" xml:space="preserve">
     <value>Select action:</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="newGameToolStripMenuItem.Text" xml:space="preserve">
+    <value>New game</value>
+  </data>
+  <data name="openSavedGameToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open saved game</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Quit</value>
+  </data>
+  <data name="rtbLocation.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtbMessages.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="saveGameToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save game</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Quests</value>
   </data>
 </root>

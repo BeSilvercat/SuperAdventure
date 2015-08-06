@@ -52,6 +52,8 @@
             this.dgvColName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvColQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvQuests = new System.Windows.Forms.DataGridView();
+            this.dgvColQuestName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvColQuestDone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,8 +72,6 @@
             this.txtGoldBank = new System.Windows.Forms.TextBox();
             this.cboBank = new System.Windows.Forms.ComboBox();
             this.btnTransfer = new System.Windows.Forms.Button();
-            this.dgvColQuestName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvColQuestDone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -236,6 +236,18 @@
             this.dgvQuests.ReadOnly = true;
             this.dgvQuests.RowHeadersVisible = false;
             // 
+            // dgvColQuestName
+            // 
+            resources.ApplyResources(this.dgvColQuestName, "dgvColQuestName");
+            this.dgvColQuestName.Name = "dgvColQuestName";
+            this.dgvColQuestName.ReadOnly = true;
+            // 
+            // dgvColQuestDone
+            // 
+            resources.ApplyResources(this.dgvColQuestDone, "dgvColQuestDone");
+            this.dgvColQuestDone.Name = "dgvColQuestDone";
+            this.dgvColQuestDone.ReadOnly = true;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -359,18 +371,6 @@
             this.btnTransfer.UseVisualStyleBackColor = true;
             this.btnTransfer.Click += new System.EventHandler(this.btnTransfer_Click);
             // 
-            // dgvColQuestName
-            // 
-            resources.ApplyResources(this.dgvColQuestName, "dgvColQuestName");
-            this.dgvColQuestName.Name = "dgvColQuestName";
-            this.dgvColQuestName.ReadOnly = true;
-            // 
-            // dgvColQuestDone
-            // 
-            resources.ApplyResources(this.dgvColQuestDone, "dgvColQuestDone");
-            this.dgvColQuestDone.Name = "dgvColQuestDone";
-            this.dgvColQuestDone.ReadOnly = true;
-            // 
             // SuperAdventure
             // 
             resources.ApplyResources(this, "$this");
@@ -399,6 +399,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "SuperAdventure";
+            this.Load += new System.EventHandler(this.SuperAdventure_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).EndInit();
             this.menuStrip1.ResumeLayout(false);

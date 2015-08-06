@@ -30,7 +30,13 @@ namespace SuperAdventure
 
         public SuperAdventure()
         {
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("fr-FR");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("fr-FR");
+
             InitializeComponent();
+            
+
+
             if (File.Exists(PLAYER_DATA_FILE_NAME))
             {
                 _player = Player.CreatePlayerFromXmlString(File.ReadAllText(PLAYER_DATA_FILE_NAME));
@@ -626,6 +632,10 @@ namespace SuperAdventure
             }
             ScrollToBottomOfMessages();
         }
-       
+
+        private void SuperAdventure_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
