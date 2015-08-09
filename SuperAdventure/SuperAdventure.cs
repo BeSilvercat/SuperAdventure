@@ -197,15 +197,15 @@ namespace SuperAdventure
                 Monster standardMonster = World.MonsterByID(newLocation.MonsterLivingHere.ID);
 
                 _currentMonster = new Monster(standardMonster.ID, standardMonster.Name, standardMonster.MaximumDamage,
-                    standardMonster.RewardExperiencePoints, standardMonster.RewardGold, standardMonster.CurrentHitPoints, standardMonster.MaximumHitPoints, standardMonster.AgroProbability);
+                    standardMonster.RewardExperiencePoints, standardMonster.RewardGold, standardMonster.CurrentHitPoints, standardMonster.MaximumHitPoints, standardMonster.AggroProbability);
 
-                if(_currentMonster.AgroProbability == 0)
+                if(_currentMonster.AggroProbability == 0)
                 {
                     rtbMessages.Text += RmLoc.GetString("strNotAggro") + Environment.NewLine;
                 }
                 else
                 {
-                    if (RandomNumberGenerator.NumberBetween(1, 100) >= _currentMonster.AgroProbability)
+                    if (RandomNumberGenerator.NumberBetween(1, 100) >= _currentMonster.AggroProbability)
                     {
                         rtbMessages.Text += RmLoc.GetString("strAggroTrue") + Environment.NewLine;
                         int damageToPlayer = RandomNumberGenerator.NumberBetween(0, _currentMonster.MaximumDamage);
