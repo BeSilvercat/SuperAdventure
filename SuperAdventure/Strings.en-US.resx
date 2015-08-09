@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="strAggroFalse" xml:space="preserve">
+    <value>The monster doesn't pay attention to you...</value>
+  </data>
+  <data name="strAggroTrue" xml:space="preserve">
+    <value>This monster is very aggresive and attacks you!</value>
+  </data>
   <data name="strBankDeposit" xml:space="preserve">
     <value>You made a deposit of </value>
   </data>
@@ -155,6 +161,9 @@
   </data>
   <data name="strName" xml:space="preserve">
     <value>Name</value>
+  </data>
+  <data name="strNotAggro" xml:space="preserve">
+    <value>This monster isn't aggressive at all.</value>
   </data>
   <data name="strPlayerDefeatedMonster" xml:space="preserve">
     <value>You defeated the </value>

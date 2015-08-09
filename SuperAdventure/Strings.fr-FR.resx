@@ -213,4 +213,13 @@
   <data name="strTrue" xml:space="preserve">
     <value>Oui</value>
   </data>
+  <data name="strAggroFalse" xml:space="preserve">
+    <value>Le monstre ne vous prête aucune attention...</value>
+  </data>
+  <data name="strAggroTrue" xml:space="preserve">
+    <value>Ce monstre est très agressif et vous attaque !</value>
+  </data>
+  <data name="strNotAggro" xml:space="preserve">
+    <value>Ce monstre n'est pas du tout agressif.</value>
+  </data>
 </root>

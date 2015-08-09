@@ -385,7 +385,7 @@
     <value>121, 21</value>
   </data>
   <data name="cboPotions.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;cboPotions.Name" xml:space="preserve">
     <value>cboPotions</value>
@@ -406,7 +406,7 @@
     <value>75, 23</value>
   </data>
   <data name="btnUseWeapon.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="btnUseWeapon.Text" xml:space="preserve">
     <value>Use</value>
@@ -457,7 +457,7 @@
     <value>75, 23</value>
   </data>
   <data name="btnNorth.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>4</value>
   </data>
   <data name="btnNorth.Text" xml:space="preserve">
     <value>North</value>
@@ -484,7 +484,7 @@
     <value>75, 23</value>
   </data>
   <data name="btnEast.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>6</value>
   </data>
   <data name="btnEast.Text" xml:space="preserve">
     <value>East</value>
@@ -511,7 +511,7 @@
     <value>75, 23</value>
   </data>
   <data name="btnWest.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>5</value>
   </data>
   <data name="btnWest.Text" xml:space="preserve">
     <value>West</value>
@@ -538,7 +538,7 @@
     <value>75, 23</value>
   </data>
   <data name="btnSouth.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>7</value>
   </data>
   <data name="btnSouth.Text" xml:space="preserve">
     <value>South</value>
@@ -562,7 +562,7 @@
     <value>360, 105</value>
   </data>
   <data name="rtbLocation.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>2</value>
   </data>
   <data name="rtbLocation.Text" xml:space="preserve">
     <value />
@@ -586,7 +586,7 @@
     <value>360, 286</value>
   </data>
   <data name="rtbMessages.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+    <value>3</value>
   </data>
   <data name="rtbMessages.Text" xml:space="preserve">
     <value />
@@ -750,51 +750,6 @@
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Quit</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 148</value>
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 380</value>
-  </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
@@ -849,98 +804,26 @@
   <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;txtAvailableGold.Name" xml:space="preserve">
-    <value>txtAvailableGold</value>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 148</value>
   </data>
-  <data name="&gt;&gt;txtAvailableGold.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 380</value>
   </data>
-  <data name="&gt;&gt;txtAvailableGold.Parent" xml:space="preserve">
-    <value>pnBank</value>
-  </data>
-  <data name="&gt;&gt;txtAvailableGold.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblGoldInBank.Name" xml:space="preserve">
-    <value>lblGoldInBank</value>
-  </data>
-  <data name="&gt;&gt;lblGoldInBank.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblGoldInBank.Parent" xml:space="preserve">
-    <value>pnBank</value>
-  </data>
-  <data name="&gt;&gt;lblGoldInBank.ZOrder" xml:space="preserve">
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;lblGoldAmount.Name" xml:space="preserve">
-    <value>lblGoldAmount</value>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
   </data>
-  <data name="&gt;&gt;lblGoldAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblGoldAmount.Parent" xml:space="preserve">
-    <value>pnBank</value>
-  </data>
-  <data name="&gt;&gt;lblGoldAmount.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txtGoldBank.Name" xml:space="preserve">
-    <value>txtGoldBank</value>
-  </data>
-  <data name="&gt;&gt;txtGoldBank.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtGoldBank.Parent" xml:space="preserve">
-    <value>pnBank</value>
-  </data>
-  <data name="&gt;&gt;txtGoldBank.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;cboBank.Name" xml:space="preserve">
-    <value>cboBank</value>
-  </data>
-  <data name="&gt;&gt;cboBank.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cboBank.Parent" xml:space="preserve">
-    <value>pnBank</value>
-  </data>
-  <data name="&gt;&gt;cboBank.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnTransfer.Name" xml:space="preserve">
-    <value>btnTransfer</value>
-  </data>
-  <data name="&gt;&gt;btnTransfer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTransfer.Parent" xml:space="preserve">
-    <value>pnBank</value>
-  </data>
-  <data name="&gt;&gt;btnTransfer.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pnBank.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 534</value>
-  </data>
-  <data name="pnBank.Size" type="System.Drawing.Size, System.Drawing">
-    <value>322, 110</value>
-  </data>
-  <data name="pnBank.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;pnBank.Name" xml:space="preserve">
-    <value>pnBank</value>
-  </data>
-  <data name="&gt;&gt;pnBank.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnBank.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnBank.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="txtAvailableGold.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 45</value>
@@ -949,7 +832,7 @@
     <value>100, 20</value>
   </data>
   <data name="txtAvailableGold.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;txtAvailableGold.Name" xml:space="preserve">
     <value>txtAvailableGold</value>
@@ -970,13 +853,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblGoldInBank.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 48</value>
+    <value>7, 47</value>
   </data>
   <data name="lblGoldInBank.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 13</value>
   </data>
   <data name="lblGoldInBank.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="lblGoldInBank.Text" xml:space="preserve">
     <value>Available gold in bank</value>
@@ -1027,7 +910,7 @@
     <value>100, 20</value>
   </data>
   <data name="txtGoldBank.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;txtGoldBank.Name" xml:space="preserve">
     <value>txtGoldBank</value>
@@ -1075,7 +958,7 @@
     <value>75, 23</value>
   </data>
   <data name="btnTransfer.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>5</value>
   </data>
   <data name="btnTransfer.Text" xml:space="preserve">
     <value>Transfer</value>
@@ -1091,6 +974,27 @@
   </data>
   <data name="&gt;&gt;btnTransfer.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="pnBank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 534</value>
+  </data>
+  <data name="pnBank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 110</value>
+  </data>
+  <data name="pnBank.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnBank.Name" xml:space="preserve">
+    <value>pnBank</value>
+  </data>
+  <data name="&gt;&gt;pnBank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnBank.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnBank.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

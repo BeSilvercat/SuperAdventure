@@ -13,9 +13,10 @@ namespace Engine
         public int RewardExperiencePoints { get; set; }
         public int RewardGold { get; set; }
         public bool IsAggro { get; set; }
+        public int AgroProbability { get; set; }
         public List<LootItem> LootTable { get; set; }
 
-        public Monster(int id, string name, int maximumDamage, int rewardExperiencePoints, int rewardGold, int currentHitPoints, int maximumHitPoints, bool isAggro)
+        public Monster(int id, string name, int maximumDamage, int rewardExperiencePoints, int rewardGold, int currentHitPoints, int maximumHitPoints, int aggroProbability)
             : base(currentHitPoints, maximumHitPoints)
         {
             ID = id;
@@ -23,7 +24,7 @@ namespace Engine
             MaximumDamage = maximumDamage;
             RewardExperiencePoints = rewardExperiencePoints;
             RewardGold = rewardGold;
-            IsAggro = isAggro;
+            AgroProbability = aggroProbability;
             LootTable = new List<LootItem>();
         }
     }

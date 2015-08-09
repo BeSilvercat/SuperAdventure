@@ -197,7 +197,44 @@ namespace SuperAdventure
                 Monster standardMonster = World.MonsterByID(newLocation.MonsterLivingHere.ID);
 
                 _currentMonster = new Monster(standardMonster.ID, standardMonster.Name, standardMonster.MaximumDamage,
-                    standardMonster.RewardExperiencePoints, standardMonster.RewardGold, standardMonster.CurrentHitPoints, standardMonster.MaximumHitPoints, standardMonster.IsAggro);
+                    standardMonster.RewardExperiencePoints, standardMonster.RewardGold, standardMonster.CurrentHitPoints, standardMonster.MaximumHitPoints, standardMonster.AgroProbability);
+
+                if(_currentMonster.AgroProbability == 0)
+                {
+                    rtbMessages.Text += RmLoc.GetString("strNotAggro") + Environment.NewLine;
+                }
+                else
+                {
+                    if (RandomNumberGenerator.NumberBetween(1, 100) >= _currentMonster.AgroProbability)
+                    {
+                        rtbMessages.Text += RmLoc.GetString("strAggroTrue") + Environment.NewLine;
+                        int damageToPlayer = RandomNumberGenerator.NumberBetween(0, _currentMonster.MaximumDamage);
+
+                        // Display message
+                        rtbMessages.Text += RmLoc.GetString("strThe") + _currentMonster.Name + RmLoc.GetString("strDid") + damageToPlayer.ToString() + RmLoc.GetString("strDamagePoints") + Environment.NewLine;
+                        ScrollToBottomOfMessages();
+                        // Subtract damage from player
+                        _player.CurrentHitPoints -= damageToPlayer;
+
+                        // Refresh player data in UI
+                        lblHitPoints.Text = _player.CurrentHitPoints.ToString();
+
+                        if (_player.CurrentHitPoints <= 0)
+                        {
+                            // Display message
+                            rtbMessages.Text += RmLoc.GetString("strThe") + _currentMonster.Name + RmLoc.GetString("strKilledYou") + Environment.NewLine;
+                            ScrollToBottomOfMessages();
+                            // Move player to "Home"
+                            MoveTo(World.LocationByID(World.LOCATION_ID_HOME));
+                        }
+
+                    }
+                    else
+                    {
+                        rtbMessages.Text += RmLoc.GetString("strAggroFalse") + Environment.NewLine;
+                        ScrollToBottomOfMessages();
+                    }                   
+                }
 
                 foreach (LootItem lootItem in standardMonster.LootTable)
                 {
